@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+<div class="container">
+  <section class="content">
+    <h1>Learn to code by watching others</h1>
+  
+    <p>
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. 
+    </p>
+   </section>
+  
+  
+  <section class="signup">
+    <p class="pTop">
+      <b>Try it free 7 days</b> then $20/mo. thereafter
+    </p>
+  
+    <form>
+        <img class="error" src="images/icon-error.svg" alt="">
+        <input class="inp" id="firstname" type="text" required placeholder="First Name">
+        <div class="texterror"></div>
+
+        <img class="error" src="images/icon-error.svg" alt="">
+        <input class="inp" id="lastname" type="text" required placeholder="Last Name">
+        <div class="texterror"></div>
+
+        <img class="error" src="images/icon-error.svg" alt="">
+        <input class="inp" id="email" type="email" required placeholder="Email Address">
+        <div class="texterror"></div>
+
+        <img class="error" src="images/icon-error.svg" alt="">
+        <input class="inp" id="password" type="password" required placeholder="Password">
+        <div class="texterror"></div>
+  
+    <button id="btn">Claim your free trial </button>
+  
+    <p>By clicking the button, you are agreeing to our <a href="#" style="color: red;text-decoration: none;">Terms and Services</a></p>
+    </form>
+  </section>
+  
+</div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
